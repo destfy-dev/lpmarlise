@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3D4" />
+      <stop offset="30%" stop-color="#E8C37B" />
+      <stop offset="50%" stop-color="#CEAD72" />
+      <stop offset="85%" stop-color="#B08D52" />
+      <stop offset="100%" stop-color="#7D6031" />
+    </linearGradient>
+    <filter id="glow">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="0.8" flood-color="#5C421A" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="32" height="32" rx="8" fill="#FDFBF8"/>
+  <!-- Border -->
+  <rect x="1.5" y="1.5" width="29" height="29" rx="6.5" fill="none" stroke="url(#gold-grad)" stroke-width="1.5" opacity="0.9"/>
+  <!-- Cursive 'M' Path -->
+  <path d="M 6.5,21 C 5.5,18 6,14.5 8,11.5 C 10.5,7.5 13,6.5 15,6.5 C 16.5,6.5 17,9.5 16,14 C 15,18.5 12,23.5 10.5,25 C 9.5,26 9,25.5 9,24 C 9,21 12,15 15,10.5 C 17,7.5 19,6.5 21,6.5 C 22.5,6.5 23.5,8.5 23.5,12 C 23.5,16 21,21 19.5,24.5 C 18.5,26.5 18,27.5 19,27.5 C 20.5,27.5 23.5,23.5 25.5,19 C 26.5,16.5 27.5,15.5 28,15.5" 
+        fill="none" 
+        stroke="url(#gold-grad)" 
+        stroke-width="2.8" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"
+        filter="url(#glow)"/>
+</svg>
